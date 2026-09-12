@@ -71,3 +71,20 @@ while (input !== "quit") {
   input = getInput();
 }
 ```
+
+why the `node_modules` folder never goes on GitHub?
+the `node_modules` folder contains all the installed dependencies for a Node.js project. It can be very large and is not necessary to include in version control because it can be regenerated using the `package.json` and `package-lock.json` files. Instead, developers use `.gitignore` to exclude `node_modules` from being tracked by Git, ensuring that only the essential project files are shared on GitHub.
+
+describe each field in the `package.json` file:
+
+- `name`: The name of the package.
+- `version`: The version of the package.
+- `description`: A brief description of the package.
+- `main`: The main entry point of the package.
+- `scripts`: A set of commands that can be run to perform various tasks.
+- `keywords`: An array of keywords that describe the package.
+- `author`: The author of the package.
+- `license`: The license under which the package is distributed.
+- `dependencies`: A list of packages that this package depends on.
+- `devDependencies`: A list of packages that are only needed for development purposes.
+
