@@ -31,7 +31,6 @@
 // }
 
 //////////////////////////
-
 const students = [
   { name: "Sara", score: 92 },
   { name: "Omar", score: 68 },

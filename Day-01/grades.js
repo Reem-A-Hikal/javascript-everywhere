@@ -25,7 +25,6 @@ for (const student of grades) {
   }
 }
 
-
 console.log(
   `Summary: ${excellentCount} Excellent, ${goodCount} Good, ${needsWorkCount} Needs work.`,
 );
