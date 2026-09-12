@@ -8,3 +8,10 @@ function createProfile(name, city, reason) {
 console.log(createProfile(myName, myCity, whyJoined));
 
 console.log(`Node version: ${process.version}`);
+
+// Made profile.js read a value from the command line with process.argv
+const nameFromArg = process.argv[2] || myName;
+const cityFromArg = process.argv[3] || myCity;
+const reasonFromArg = process.argv[4] || whyJoined;
+
+console.log(createProfile(nameFromArg, cityFromArg, reasonFromArg));
