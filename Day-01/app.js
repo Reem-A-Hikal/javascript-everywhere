@@ -8,4 +8,5 @@ changeTextBtn.addEventListener("click", () => {
 
 logBtn.addEventListener("click", () => {
   console.log(`My name is ${h1.textContent}`);
+  
 });
