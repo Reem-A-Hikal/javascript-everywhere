@@ -1,0 +1,14 @@
+{
+  "name": "day-01",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Reem Atef",
+  "license": "ISC",
+  "description": "Day 01 exercises for the JavaScript course",
+  "dependencies": {
+    "bootstrap": "^5.3.8"
+  }
+}
