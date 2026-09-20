@@ -27,3 +27,22 @@ Hi, I'm **Reem Heikal**. This repository contains my notes, exercises, experimen
 | 5 | Chrome Extensions | Planned |
 | 6 | Automation Scripts | Planned |
 | 7 | AI-Powered Applications | Planned |
+
+## Table of Content
+
+### Day01
+
+- JavaScript Runtime and Node.js
+- Git and GitHub Basics
+- JavaScript Fundamentals
+- Variables, Data Types, and Operators
+- Profile Generator with Node.js
+- Grade Analysis and Pass/Fail Logic
+
+### Day02
+
+- DOM Interaction and Events
+- Grade Engine and Letter Grading
+- Loops, Arrays, and Iteration
+- Type Coercion
+- Type Conversion, Truthy/Falsy, and Nullish Coalescing
